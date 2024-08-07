@@ -15,8 +15,11 @@
         <input type="submit" value="Anmelden">
     </form>
 
-
+    <?php
+    // Wenn eine Nachricht vorhanden ist, zeige sie an
+    if (isset($nachricht)) {
+        echo "<p>$nachricht</p>";
+    }
+    ?>
 </body>
-
 </html>
-
