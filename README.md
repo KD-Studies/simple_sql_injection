@@ -5,14 +5,12 @@ Dieses Projekt enthält zwei Ordner, die Beispiele für sicheres und unsicheres 
 - `savecode`: Enthält sicher implementierten Code, der SQL-Injection-Angriffe verhindert.
 - `unsavecode`: Enthält unsicher implementierten Code, der anfällig für SQL-Injection-Angriffe ist.
 
-
-
 ## Nutzung
 
 ### Vorbereitungen
 
 1. **Installiere XAMPP**:
-   - Lade XAMPP von der [offiziellen Website] herunter und installiere es, falls noch nicht geschehen.
+   - Lade XAMPP von der [offiziellen Website](https://www.apachefriends.org/index.html) herunter und installiere es, falls noch nicht geschehen.
 
 2. **Starte XAMPP**:
    - Öffne das XAMPP Control Panel.
@@ -53,14 +51,11 @@ Dieses Projekt enthält zwei Ordner, die Beispiele für sicheres und unsicheres 
    - Teste das Login-System, das anfällig für SQL-Injection ist. Versuche, SQL-Injection-Angriffe durchzuführen:
      - **Benutzername:** `admin`
      - **Passwort:** `' OR '1'='1`
-
+     oder
+     - **Benutzername:** `admin #`
+     - **Passwort:** ``
 
 ## Hinweise 
 
 - **Sicherheits- und Bildungszweck**: Dieser Abschnitt erklärt detailliert, warum der unsichere Code vorhanden ist und wie er als Lernwerkzeug verwendet wird. Es wird betont, dass der Code nur für Bildungszwecke gedacht ist und nicht in echten Anwendungen eingesetzt werden sollte.
 - **Verwendung des Codes**: Hier wird klar gemacht, dass der unsichere Code nur für Tests und Lernzwecke verwendet werden soll.
-
-
-
-
-
