@@ -10,7 +10,7 @@ Dieses Projekt enthält zwei Ordner, die Beispiele für sicheres und unsicheres 
 ### Vorbereitungen
 
 1. **Installiere XAMPP**:
-   - Lade XAMPP von der [offiziellen Website](https://www.apachefriends.org/index.html) herunter und installiere es, falls noch nicht geschehen.
+   - Lade XAMPP von der [offiziellen Website] herunter und installiere es, falls noch nicht geschehen.
 
 2. **Starte XAMPP**:
    - Öffne das XAMPP Control Panel.
