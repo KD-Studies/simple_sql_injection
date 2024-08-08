@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Erstellungszeit: 07. Aug 2024 um 12:12
+-- Erstellungszeit: 08. Aug 2024 um 18:19
 -- Server-Version: 10.4.32-MariaDB
 -- PHP-Version: 8.2.12
 
@@ -26,31 +26,31 @@ USE `simplesqlinjection`;
 -- --------------------------------------------------------
 
 --
--- Tabellenstruktur für Tabelle `benutzer`
+-- Tabellenstruktur für Tabelle `users`
 --
 
-CREATE TABLE `benutzer` (
+CREATE TABLE `users` (
   `id` int(11) NOT NULL,
-  `benutzername` varchar(50) NOT NULL,
-  `passwort` varchar(50) NOT NULL
+  `username` varchar(50) NOT NULL,
+  `password` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Daten für Tabelle `benutzer`
+-- Daten für Tabelle `users`
 --
 
-INSERT INTO `benutzer` (`id`, `benutzername`, `passwort`) VALUES
-(1, 'admin', 'password123'),
-(2, 'user', 'mypassword');
+INSERT INTO `users` (`id`, `username`, `password`) VALUES
+(1, 'admin', 'adminpassword'),
+(2, 'user', 'userpassword');
 
 --
 -- Indizes der exportierten Tabellen
 --
 
 --
--- Indizes für die Tabelle `benutzer`
+-- Indizes für die Tabelle `users`
 --
-ALTER TABLE `benutzer`
+ALTER TABLE `users`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -58,9 +58,9 @@ ALTER TABLE `benutzer`
 --
 
 --
--- AUTO_INCREMENT für Tabelle `benutzer`
+-- AUTO_INCREMENT für Tabelle `users`
 --
-ALTER TABLE `benutzer`
+ALTER TABLE `users`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
