@@ -22,6 +22,8 @@ $pass = $_POST['password'] ?? '';
 
 // Unsichere SQL-Abfrage (anfällig für SQL-Injection)
 $sql = "SELECT * FROM users WHERE username = '$user' AND password = '$pass'";
+//$sql = "SELECT * FROM users WHERE username = 'admin' AND password = '' OR '1'='1'";
+//$sql = "SELECT * FROM users WHERE username = 'admin'#' AND password = '$pass'";
 $result = $conn->query($sql);
 
 // Prüfen, ob ein Ergebnis vorliegt
