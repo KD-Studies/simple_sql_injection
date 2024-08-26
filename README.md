@@ -52,7 +52,7 @@ Dieses Projekt enthält zwei Ordner, die Beispiele für sicheres und unsicheres 
      - **Benutzername:** `admin`
      - **Passwort:** `' OR '1'='1`
      oder
-     - **Benutzername:** `admin #`
+     - **Benutzername:** `admin' #`
      - **Passwort:** ``
 
 ## Hinweise 
