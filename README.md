@@ -58,4 +58,4 @@ Dieses Projekt enthält zwei Ordner, die Beispiele für sicheres und unsicheres 
 ## Hinweis
 
 - **Sicherheits- und Bildungszweck**: Dieser Abschnitt erklärt detailliert, warum der unsichere Code vorhanden ist und wie er als Lernwerkzeug verwendet wird. Es wird betont, dass die Codes nur für Bildungszwecke gedacht sind und nicht in echten Anwendungen eingesetzt werden sollten.
-- **Verwendung des Codes**: Hier wird klar gemacht, dass die Codes nur für Lernzwecke verwendet werden sollten!
+- **Verwendung des Codes**: Hier wird klargemacht, dass dieses Codes nur für Lernzwecke verwendet werden sollten!
